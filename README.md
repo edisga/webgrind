@@ -38,7 +38,7 @@ quickly inspect existing xDebug profiling files. To use the Docker image, run th
 `/path/to/xdebug/files` replaced by the actual path of your profiling files.
 
 ```
-docker run --rm -v /path/to/xdebug/files:/tmp -p 80:80 jokkedk/webgrind:latest
+docker run --rm -v /path/to/xdebug/files:/tmp -p 8080:80 edisga/webgrind:latest
 ```
 
 Now open `http://localhost` in your browser. After using webgrind you can stop the Docker container by pressing
